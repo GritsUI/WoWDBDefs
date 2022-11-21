@@ -16,6 +16,25 @@ int<SoundKit::ID> TakeOutSlotSoundKitID? // has GO_8FX_VISIONS_TITAN_CLEANSINGLI
 int<SoundKit::ID> DropInSlotSoundKitID // has GO_8BL_CultistChest_Open_TitanMagic
 locstring Field_9_1_5_40196_004_lang?
 locstring ConfirmationQuestion_lang?
+int Field_10_0_2_46259_016?
+locstring Field_10_0_2_46479_000_lang?
+locstring Field_10_0_2_46479_001_lang?
+locstring Field_10_0_2_46479_002_lang?
+locstring Field_10_0_2_46479_003_lang?
+locstring Field_10_0_2_46479_004_lang?
+locstring Field_10_0_2_46479_005_lang?
+locstring Field_10_0_2_46479_006_lang?
+int Field_10_0_2_46479_007?
+int Field_10_0_2_46479_008?
+int Field_10_0_2_46479_009?
+int Field_10_0_2_46479_010?
+int Field_10_0_2_46479_011?
+int Field_10_0_2_46479_012?
+int Field_10_0_2_46479_013?
+int Field_10_0_2_46479_014?
+int Field_10_0_2_46479_015?
+int Field_10_0_2_46479_016?
+int Field_10_0_2_46479_017?
 
 LAYOUT 600AB900
 BUILD 8.3.0.32414, 8.3.0.32489, 8.3.0.32593, 8.3.0.32712
@@ -98,8 +117,9 @@ DropInSlotSoundKitID<32>
 TakeOutSlotSoundKitID<32>
 
 LAYOUT B9E40623
-BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232
-BUILD 9.2.7.44444, 9.2.7.44767, 9.2.7.44931, 9.2.7.44981, 9.2.7.45114, 9.2.7.45161
+BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46144, 10.0.2.46157
+BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0.0.45335, 10.0.0.45454, 10.0.0.45570, 10.0.0.45661, 10.0.0.45697, 10.0.0.45970, 10.0.0.46047, 10.0.0.46112, 10.0.0.46181, 10.0.0.46247, 10.0.0.46270, 10.0.0.46293, 10.0.0.46313, 10.0.0.46340, 10.0.0.46366, 10.0.0.46455, 10.0.0.46547, 10.0.0.46549, 10.0.0.46597
+BUILD 9.2.7.44444, 9.2.7.44767, 9.2.7.44931, 9.2.7.44981, 9.2.7.45114, 9.2.7.45161, 9.2.7.45338, 9.2.7.45745
 BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.43971, 9.2.5.44015, 9.2.5.44061, 9.2.5.44127, 9.2.5.44232, 9.2.5.44325, 9.2.5.44730, 9.2.5.44908
 $noninline,id$ID<32>
 TutorialText_lang
@@ -118,3 +138,46 @@ CurrencyTypeID<32>
 Field_8_3_0_32414_012<u8>
 DropInSlotSoundKitID<32>
 TakeOutSlotSoundKitID<32>
+
+LAYOUT 6D781E1B
+BUILD 10.0.2.46259, 10.0.2.46420, 10.0.2.46456
+$noninline,id$ID<32>
+TutorialText_lang
+TitleText_lang
+Description_lang
+ButtonText_lang
+Field_9_1_5_40196_004_lang
+ConfirmationQuestion_lang
+UiTextureKitID<32>
+OpenSoundKitID<32>
+CloseSoundKitID<32>
+Cost<32>
+ItemInteractionFrameType<32>
+InteractionSpellID<32>
+CurrencyTypeID<32>
+Field_8_3_0_32414_012<u8>
+DropInSlotSoundKitID<32>
+TakeOutSlotSoundKitID<32>
+Field_10_0_2_46259_016<32>
+
+LAYOUT A6022569
+BUILD 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702
+$noninline,id$ID<32>
+Field_10_0_2_46479_000_lang
+Field_10_0_2_46479_001_lang
+Field_10_0_2_46479_002_lang
+Field_10_0_2_46479_003_lang
+Field_10_0_2_46479_004_lang
+Field_10_0_2_46479_005_lang
+Field_10_0_2_46479_006_lang
+Field_10_0_2_46479_007<32>
+Field_10_0_2_46479_008<32>
+Field_10_0_2_46479_009<32>
+Field_10_0_2_46479_010<32>
+Field_10_0_2_46479_011<32>
+Field_10_0_2_46479_012<32>
+Field_10_0_2_46479_013<32>
+Field_10_0_2_46479_014<u8>
+Field_10_0_2_46479_015<32>
+Field_10_0_2_46479_016<32>
+Field_10_0_2_46479_017<32>
