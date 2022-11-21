@@ -20,8 +20,8 @@ $noninline,id$ID<32>
 PlayerLevelToItemLevelCurveID<u16>
 Minlevel<32>
 Maxlevel<32>
-StatID<32>[10]
 Bonus<32>[10]
+StatID<32>[10]
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12122
