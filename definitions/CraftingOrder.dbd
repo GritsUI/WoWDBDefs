@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<SkillLineAbility::ID> SkillLineAbilityID?
 int<CraftingOrderHouse::ID> CraftingOrderHouseID?
-int Field_10_0_2_46479_000?
-int Field_10_0_2_46479_001?
 int Field_10_0_2_46479_002?
 
 LAYOUT F8DAE82D
@@ -19,8 +17,8 @@ SkillLineAbilityID<32>
 CraftingOrderHouseID<32>
 
 LAYOUT B84EEC7E
-BUILD 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702
+BUILD 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702, 10.0.2.46741, 10.0.2.46781, 10.0.2.46801, 10.0.2.46802, 10.0.2.46879, 10.0.2.46924
 $noninline,id$ID<32>
-Field_10_0_2_46479_000<32>
-Field_10_0_2_46479_001<32>
+SkillLineAbilityID<32>
+CraftingOrderHouseID<32>
 Field_10_0_2_46479_002<32>
