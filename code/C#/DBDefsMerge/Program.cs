@@ -21,7 +21,7 @@ namespace DBDefsMerge
             if (args[0].EndsWith(".json") && args[1].EndsWith(".json") && args[2].EndsWith(".json"))
             {
                 MergeJSONManifests.Merge(args[0], args[1], args[2]);
-                Environment.Exit(1);
+                Environment.Exit(0);
             }
 
             var numLayoutsAdded = 0;
@@ -385,9 +385,9 @@ namespace DBDefsMerge
                         {
                             if (versionDefinitionCopy[i].layoutHashes.Length > 0 && versionDefinitionCopy[j].layoutHashes.Length > 0 && !versionDefinitionCopy[i].layoutHashes.SequenceEqual(versionDefinitionCopy[j].layoutHashes))
                             {
-                                Console.ForegroundColor = ConsoleColor.Yellow;
-                                Console.WriteLine(Path.GetFileNameWithoutExtension(entry.Key) + " has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ") but two different layouthashes, ignoring...");
-                                Console.ResetColor();
+                                //Console.ForegroundColor = ConsoleColor.Yellow;
+                                //Console.WriteLine(Path.GetFileNameWithoutExtension(entry.Key) + " has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ") but two different layouthashes, ignoring...");
+                                //Console.ResetColor();
                             }
                             else
                             {
